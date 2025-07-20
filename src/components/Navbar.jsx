@@ -9,7 +9,7 @@ const fadeInUp = {
 const staggerContainer = {
   animate: {
     transition: {
-      staggerChildren: 0.1, // stagger effect is set on parent to apply to all children
+      staggerChildren: 0.1,
     },
   },
 };
@@ -27,8 +27,7 @@ export const Navbar = () => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
-        {" "}
-        Sahand
+        Sahand.Systems
       </motion.div>
 
       <motion.ul
@@ -42,23 +41,21 @@ export const Navbar = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a>Home</a>
+          <a href="#home"> Home</a>
         </motion.li>
-
         <motion.li
           variants={fadeInUp}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a>Projects</a>
+          <a href="#projects"> Projects</a>
         </motion.li>
-
         <motion.li
           variants={fadeInUp}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <a>Contact</a>
+          <a href="#contact"> Contact</a>
         </motion.li>
       </motion.ul>
     </motion.nav>
