@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const fadeInUp = {
@@ -15,6 +16,8 @@ const staggerContainer = {
 };
 
 export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <motion.nav
       className="navbar"
@@ -30,33 +33,35 @@ export const Navbar = () => {
         Sahand.Systems
       </motion.div>
 
+      <div
+        className={`hamburger ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
       <motion.ul
-        className="nav-links"
+        className={`nav-links ${menuOpen ? "active" : ""}`}
         variants={staggerContainer}
         initial="initial"
         animate="animate"
       >
-        <motion.li
-          variants={fadeInUp}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <a href="#home"> Home</a>
-        </motion.li>
-        <motion.li
-          variants={fadeInUp}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <a href="#projects"> Projects</a>
-        </motion.li>
-        <motion.li
-          variants={fadeInUp}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <a href="#contact"> Contact</a>
-        </motion.li>
+        {["home", "projects", "contact"].map((link) => (
+          <motion.li
+            key={link}
+            variants={fadeInUp}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => setMenuOpen(false)} // close menu on link click
+          >
+            <a href={`#${link}`}>
+              {" "}
+              {link.charAt(0).toUpperCase() + link.slice(1)}
+            </a>
+          </motion.li>
+        ))}
       </motion.ul>
     </motion.nav>
   );
