@@ -351,11 +351,11 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-image-container {
     display: none;
   }
-}
+} */
 
 /* ============================================================
    🛠 Projects Section
@@ -926,11 +926,13 @@ body {
   }
 
   .floating-card {
-    position: relative;
+    /* position: relative;
     right: auto;
     bottom: auto;
     margin: 1.5rem auto 0;
-    max-width: 90%;
+    max-width: 90%; */
+    /* Display Off */
+    display: none;
   }
 
   .cta-buttons,
