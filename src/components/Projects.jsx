@@ -19,8 +19,8 @@ const projectsData = [
   {
     title: "USD to IRR Exchange Rate Tracker & AI Forecaster",
     description:
-      "A web application that tracks and visualizes USD to IRR exchange rates using real-time data, and employs machine learning to forecast future trends. Updated daily via GitHub Actions.",
-    tech: ["TensorFlow", "SKLearn", "GitHubActions"],
+      "A web app that tracks USD-IRR exchange rates using real-time data and AI generated next-day forecasts. Updated daily via GitHub Actions.",
+    tech: ["TensorFlow", "SKLearn", "LSTM NeuralNet"],
     image: "/projects/USD_IRR.png",
     repoUrl: "https://github.com/SahandNamvar/usd_irr_forecasting.git",
   },
