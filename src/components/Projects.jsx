@@ -17,6 +17,14 @@ const staggerContainer = {
 // Project Data Array
 const projectsData = [
   {
+    title: "USD to IRR Exchange Rate Tracker & AI Forecaster",
+    description:
+      "A web application that tracks and visualizes USD to IRR exchange rates using real-time data, and employs machine learning to forecast future trends. Updated daily via GitHub Actions.",
+    tech: ["TensorFlow", "SKLearn", "GitHubActions"],
+    image: "/projects/USD_IRR.png",
+    repoUrl: "https://github.com/SahandNamvar/usd_irr_forecasting.git",
+  },
+  {
     title: "Intelligent Journaling Platform",
     description:
       "An intelligent diary that feels personal — track your mood, reflect through emotional trends, and receive thoughtful AI-responses for better mental clarity.",
