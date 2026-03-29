@@ -17,6 +17,14 @@ const staggerContainer = {
 // Project Data Array
 const projectsData = [
   {
+    title: "MoMask: Text-to-Motion Avatar Generator",
+    description:
+      "An inference pipeline: A novel masked modeling framework for generating text-driven 3D human motion, using a transformer-based architecture.",
+    tech: ["GenerativeAI", "MotionSynthesis", "PyTorch"],
+    image: "/projects/MoMask.png",
+    repoUrl: "https://github.com/SahandNamvar/momask",
+  },
+  {
     title: "USD to IRR Exchange Rate Tracker & AI Forecaster",
     description:
       "A web app that tracks USD-IRR exchange rates using real-time data and AI generated next-day forecasts. Updated daily via GitHub Actions.",
@@ -25,12 +33,29 @@ const projectsData = [
     repoUrl: "https://github.com/SahandNamvar/usd_irr_forecasting.git",
   },
   {
+    title: "Phishing URL Detection: ML & Transformer Embeddings",
+    description:
+      "A research-based model that classifies phishing URLs with high accuracy based on transformer-based embeddings and traditional ML techniques.",
+    tech: ["Transformers", "MiniLM", "Jupyter"],
+    image: "/projects/Phishing.jpg",
+    repoUrl: "https://github.com/SahandNamvar/phishing-url-detection",
+  },
+  {
     title: "Intelligent Journaling Platform",
     description:
       "An intelligent diary that feels personal — track your mood, reflect through emotional trends, and receive thoughtful AI-responses for better mental clarity.",
     tech: ["MERNStack", "OpenAI", "GoogleNLP"],
     image: "/projects/Login.png",
     repoUrl: "https://github.com/SahandNamvar/smart-diary-app-frontend.git",
+  },
+  {
+    title: "Personal Budget Tracker Web Application",
+    description:
+      "An intuitive budget tracker that organizes your income and expenses, providing personalized analytics and robust security for confident money management.",
+    tech: ["NodeJS", "Axios", "RESTAPI"],
+    image: "/projects/Budget.png",
+    repoUrl:
+      "https://github.com/SahandNamvar/personal-budget-tracking-web-app-mern.git",
   },
   {
     title: "eMessageMe: Feature-Rich Firebase Messaging App",
@@ -48,23 +73,7 @@ const projectsData = [
     image: "/projects/WeatherApp.png",
     repoUrl: "https://github.com/SahandNamvar/Android-NWS-Weather-App.git",
   },
-  {
-    title: "Personal Budget Tracker Web Application",
-    description:
-      "An intuitive budget tracker that organizes your income and expenses, providing personalized analytics and robust security for confident money management.",
-    tech: ["NodeJS", "Axios", "RESTAPI"],
-    image: "/projects/Budget.png",
-    repoUrl:
-      "https://github.com/SahandNamvar/personal-budget-tracking-web-app-mern.git",
-  },
-  {
-    title: "Phishing URL Detection: ML & Transformer Embeddings",
-    description:
-      "A research-based model that classifies phishing URLs with high accuracy based on transformer-based embeddings and traditional ML techniques.",
-    tech: ["Transformers", "MiniLM", "Jupyter"],
-    image: "/projects/Phishing.jpg",
-    repoUrl: "https://github.com/SahandNamvar/phishing-url-detection",
-  },
+
   {
     title: "Whack A Mole! Whack 'em All!",
     description:
@@ -74,14 +83,7 @@ const projectsData = [
     repoUrl:
       "https://github.com/SahandNamvar/Mobile-App-Dev-Tile-Matching-Game.git",
   },
-  {
-    title: "MoMask: Text-to-Motion Avatar Generator",
-    description:
-      "An inference pipeline: A novel masked modeling framework for generating text-driven 3D human motion, using a transformer-based architecture.",
-    tech: ["GenerativeAI", "MotionSynthesis", "PyTorch"],
-    image: "/projects/MoMask.png",
-    repoUrl: "https://github.com/SahandNamvar/momask",
-  },
+
   {
     title: "Mobile Game: Classic Tile-Matching",
     description:
