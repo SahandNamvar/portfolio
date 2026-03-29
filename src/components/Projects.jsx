@@ -77,13 +77,13 @@ const projectsData = [
   {
     title: "MoMask: Text-to-Motion Avatar Generator",
     description:
-      "An inference pipeline: A novel masked modeling framework for generating text-driven 3D human motion.",
+      "An inference pipeline: A novel masked modeling framework for generating text-driven 3D human motion, using a transformer-based architecture.",
     tech: ["GenerativeAI", "MotionSynthesis", "PyTorch"],
     image: "/projects/MoMask.png",
     repoUrl: "https://github.com/SahandNamvar/momask",
   },
   {
-    title: "Tile-Matching Mobile Game",
+    title: "Mobile Game: Classic Tile-Matching",
     description:
       "A fun and classic tile-matching game built with Android Studio and Java. Match colorful tiles to score points and beat your high score. Requires skills!",
     tech: ["AndroidStudio", "Java", "GameDev"],
