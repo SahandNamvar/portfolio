@@ -58,10 +58,10 @@ const projectsData = [
       "https://github.com/SahandNamvar/personal-budget-tracking-web-app-mern.git",
   },
   {
-    title: "Phishing URL Detection: ML + MiniLM",
+    title: "Phishing URL Detection: ML & Transformer-Based Embeddings",
     description:
-      "A research-based feature-engineered & transformer-based text embedding model to detect and classify phishing URLs with high accuracy.",
-    tech: ["Sentence-Transformers", "Jupyter", "Kaggle"],
+      "A research-based model that classifies phishing URLs with high accuracy based on transformer-based embeddings and traditional ML techniques.",
+    tech: ["Transformers", "MiniLM", "Jupyter"],
     image: "/projects/Phishing.jpg",
     repoUrl: "https://github.com/SahandNamvar/phishing-url-detection",
   },
