@@ -58,7 +58,7 @@ const projectsData = [
       "https://github.com/SahandNamvar/personal-budget-tracking-web-app-mern.git",
   },
   {
-    title: "Phishing URL Detection: ML & Transformer-Based Embeddings",
+    title: "Phishing URL Detection: ML & Transformer Embeddings",
     description:
       "A research-based model that classifies phishing URLs with high accuracy based on transformer-based embeddings and traditional ML techniques.",
     tech: ["Transformers", "MiniLM", "Jupyter"],
@@ -78,7 +78,7 @@ const projectsData = [
     title: "MoMask: Text-to-Motion Avatar Generator",
     description:
       "An inference-based generative masked modeling of 3D human motions",
-    tech: ["GenerativeAI", "DigitalHumans", "MotionSynthesis", "PyTorch"],
+    tech: ["GenerativeAI", "MotionSynthesis", "PyTorch"],
     image: "/projects/MoMask.png",
     repoUrl: "https://github.com/SahandNamvar/momask",
   },
@@ -86,7 +86,7 @@ const projectsData = [
     title: "Tile-Matching Mobile Game",
     description:
       "A fun and classic tile-matching game built with Android Studio and Java. Match colorful tiles to score points and beat your high score!",
-    tech: ["AndroidStudio", "Java", "GameDevelopment"],
+    tech: ["AndroidStudio", "Java", "GameDev"],
     image: "/projects/Game2.png",
     repoUrl:
       "https://github.com/SahandNamvar/Mobile-App-Dev-Tile-Matching-Game.git",
