@@ -58,13 +58,12 @@ const projectsData = [
       "https://github.com/SahandNamvar/personal-budget-tracking-web-app-mern.git",
   },
   {
-    title: "ML-Based Early Alzheimer’s Detection",
+    title: "Phishing URL Detection: Transformer-Based Text Embeddings",
     description:
-      "A machine learning model that uses key health indicators to predict early diagnosis of Alzheimer’s disease, enhancing early intervention strategies.",
-    tech: ["Python", "Pandas", "ScikitLearn"],
-    image: "/projects/Kaggle.png",
-    repoUrl:
-      "https://github.com/SahandNamvar/Binary-classification-Alzheimer-disease.git",
+      "A machine learning model that uses feature engineered and transformer-based text embeddings to detect and classify phishing URLs with high accuracy.",
+    tech: ["MiniLM", "Sentence-Transformers"],
+    image: "/projects/Phishing.jpg",
+    repoUrl: "https://github.com/SahandNamvar/phishing-url-detection",
   },
   {
     title: "Whack A Mole! Whack 'em All!",
@@ -74,6 +73,14 @@ const projectsData = [
     image: "/projects/Game.png",
     repoUrl:
       "https://github.com/SahandNamvar/Mobile-App-Dev-Tile-Matching-Game.git",
+  },
+  {
+    title: "MoMask: Text-to-Motion Avatar Generator",
+    description:
+      "An inference-based generative masked modeling of 3D human motions",
+    tech: ["GenerativeAI", "DigitalHumans", "MotionSynthesis"],
+    image: "/projects/MoMask.png",
+    repoUrl: "https://github.com/SahandNamvar/momask",
   },
 ];
 
