@@ -22,7 +22,7 @@ const projectsData = [
       "An inference pipeline: A novel masked modeling framework for generating text-driven 3D human motion, using a transformer-based architecture.",
     tech: ["GenerativeAI", "MotionSynthesis", "PyTorch"],
     image: "/projects/MoMask.png",
-    repoUrl: "https://github.com/SahandNamvar/momask",
+    repoUrl: "https://github.com/SahandNamvar/momask-full-pipeline",
   },
   {
     title: "USD to IRR Exchange Rate Tracker & AI Forecaster",
